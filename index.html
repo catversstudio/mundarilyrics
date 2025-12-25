@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundari Lyrics | Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="smart-nav" id="navbar">
+        <div class="logo">Mundari <span class="highlight">Lyrics</span></div>
+        
+        <div class="nav-right">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search...">
+                <button onclick="searchMundari()"><i class="fas fa-search"></i></button>
+            </div>
+            <a href="settings.html" class="settings-trigger">
+                <i class="fas fa-cog"></i>
+            </a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>The Beat of <span class="gradient-text">Mundari</span></h1>
+            <p>Trending hits, updated daily.</p>
+        </div>
+    </header>
+
+    <main>
+        <div id="video-grid" class="video-grid">
+            </div>
+        <div id="loading-spinner" class="loading hidden">
+            <i class="fas fa-spinner fa-spin"></i> Loading more hits...
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
